@@ -1,0 +1,35 @@
+{
+   "manifest_version": 3,
+   "name": "Open-In-MPV",
+   "description": "Open a video link in MPV.",
+   "version": "1.0",
+   "default_locale": "en",
+   "browser_specific_settings": {
+     "gecko": {
+       "id": "{43e6f3ef-84a0-55f4-b9dd-d879106a24a9}",
+       "strict_min_version": "100"
+     }
+   },
+  
+   "background": {
+     "scripts": ["background.js"]
+   },
+    
+   "options_ui": {
+     "page": "options/options.html",
+     "browser_style": true
+   },
+    
+   "permissions": [
+     "menus",
+     "bookmarks",
+     "activeTab",
+     "contextMenus",
+     "nativeMessaging"
+   ],
+    
+   "icons": {
+     "16": "icons/icon-16.png",
+     "48": "icons/icon-48.png"
+   }
+}

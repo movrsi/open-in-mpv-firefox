@@ -1,2 +1,2 @@
-# open-in-mpv-firefox
-A port of @Tatsh open-in-mpv for Mozilla Firefox.
+## Open in MPV - Firefox Edition
+TODO

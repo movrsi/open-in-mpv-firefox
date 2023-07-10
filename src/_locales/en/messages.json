@@ -1,0 +1,16 @@
+{
+    "open-in-mpv": {
+        "message": "Open in mpv",
+        "description": "Name of the extension"
+    },
+
+    "response": {
+        "message": "Response:",
+        "description": "Response information used for debugging"
+    },
+
+    "error": {
+        "message": "Error:",
+        "description": "Error information used for debugging"
+    }
+}
